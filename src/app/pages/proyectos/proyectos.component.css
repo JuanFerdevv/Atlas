@@ -1,88 +1,51 @@
-*{
-    font-family: Questrial;
-}
-.headerImage{
-    margin-top: -80px;
-    background-image: url('/assets/img/Atlas/jdp/jdp-cocina.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 900px;
-}
-.IntroText{
+.projects{
     display: grid;
-    justify-content: center;
-    grid-template-columns:  repeat(2,minmax(auto, 600px));
-    height: 600px;
-    margin: 30px;
-    gap: 20px;
-    margin-top: 20px;
-}
-.IntroTextFirst h3{
-    font-size: 64px;
-    font-weight: 800;
-}
-.IntroTextFirst p{
-    font-size: 24px;
-    font-weight: 400;   
-    padding: 0px 0px 33px;
-}
-.IntroTextImage {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.LastProjects{ 
-    text-align: center;
-    font-size: 64px;
-    font-weight: 800;
-}
-.PojectsParent{
-    display: grid;
-    grid-template-columns: repeat(3,minmax(auto, 400px));
-    gap: 20px;
-    margin: 30px;
-    justify-content: center;
-}
-.Project{
-    font-size: 2rem;
-    height: 400px;
-    box-sizing: border-box;
-}
-.Project img{
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-}
-.contentChild{
-    display: grid;
-    grid-template-columns: repeat(1,minmax(auto, 600px));
+    grid-template-columns: 1.5fr 2fr 2fr;
+    grid-template-rows: 30rem 30rem 30rem;
     gap: 30px;
-    margin: 2rem;
-    justify-content: center;
-    align-content: center;
+    margin: 120px 30px 10px 30px ;
 }
-.contentChild img { 
+.project {
     height: 100%;
-    object-fit: cover;
     width: 100%;
+    overflow: hidden;
     box-sizing: border-box;
+    object-fit: cover;
+    align-items: center;
 }
-.contentChild span{
-    font-size: 64px;
-    font-weight: 800;
-    text-align: center;
+.projects h5 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}  
+.projects a {
+    text-decoration: none;
+    color: black;
+} 
+@media (max-width: 992px){
 }
-.contentChild p{
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
-}
-.contentChild a{
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
-  font-size: 20px;
-  text-align: center;
+
+@media (max-width: 768px){
+    .IntroText{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 30px;
+        margin: 30px;
+    }
+    .PojectsParent{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;  
+        align-content: center;
+    }
+    .LastProjects{
+        display: grid;
+        font-size: 64px;    
+        font-weight: 800;
+    }
+    .contentChild{
+        margin: 40px;
+    }
 }
