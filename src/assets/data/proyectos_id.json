@@ -1,0 +1,56 @@
+{
+    "rancho-san-vicente":{
+        "cod":"pj-2",
+        "name":"Club de oficiales de La Policia",
+        "url":"",
+        "tipologia":"Remodelación",
+        "ubication":"El inca",
+        "anio":"2024",
+        "description":"En el club de oficales de la Policia en conjunto con hemos creado una cafeteria con una experiencia y comodidad unicas."
+    },
+    "deko":{
+        "cod":"pj-2",
+        "name":"Deko",
+        "url":"",
+        "tipologia":"Construcción",
+        "ubication":"Tumbaco",
+        "anio":"2022",
+        "description":"En el edificio Deko hemos elaborado el diseño de las paredes y la estructura metalica del gypsum, este proyecto lo hemos trabajado en conjunto con el Arquitecto Mario Iturralde."
+    },
+    "viña":{
+        "cod":"pj-3",
+        "name":"Viña",
+        "url":"",
+        "tipologia":"Construcción",
+        "ubication":"Urbanización la Viña",
+        "anio":"2021",
+        "description":"Realizamos la decoración de los exteriores e interiores de la casa"
+    },
+    "siembra-cosecha":{
+        "cod":"pj-4",
+        "name":"Siembra Cosecha",
+        "url":"",
+        "tipologia":"Remodelación",
+        "ubication":"Cumbaya",
+        "anio":"2023",
+        "description":"Remodelación de pisos de madera y muebles"
+    },
+    "delta":{
+        "cod":"pj-5",
+        "name":"Delta",
+        "url":"",
+        "tipologia":"Remodelación",
+        "ubication":"Republica del salvador",
+        "anio":"2024",
+        "description":"Remodelación de una sala de un estudio juridico en la cual se restauro los muros de madera, y se agrego una nueva pintura especial a demas se construyo un mueble para recepción a medida, diseños y luces en el gypsum"
+    },
+    "chaco":{
+        "cod":"pj-6",
+        "name":"Chaco",
+        "url":"",
+        "tipologia":"Construcción",
+        "ubication":"Chaco",
+        "anio":"2023",
+        "description":"Diseño de interiores con Gypsum y decoración de luces"
+    }
+}
