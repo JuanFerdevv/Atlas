@@ -1,33 +1,33 @@
 <div class="parallax-container">
-            <div class="fondo-imagen"></div>
-                <div class="content">
-                    <h1>Delta</h1>
+            <div class="fondo-imagen">
+                <img  [src]="proyecto?.url"  alt="">
+            </div>
+                <div  class="content">
+                    <h1>{{proyecto?.name}}</h1>
                     <h2>Información del Proyecto</h2>
                     <section class="data">
                         <div class="info-column">
                             <h4>Tipologia</h4>
-                            <p>Remodelación Oficina</p>  
+                            <p>{{proyecto?.tipologia}}</p>  
                         </div>
                         <div class="info-column">
                             <h4>Ubicación</h4>
-                            <p>Republica del salvador</p>  
+                            <p>{{proyecto?.ubication}}</p>  
                         </div>
                         <div class="info-column">
                             <h4>Año</h4>
-                            <p>2024</p>  
+                            <p>{{proyecto?.anio}}</p>  
                         </div>
                     </section>
                 </div>
         </div> 
         <article class="description-project">
             <div class="legend">
-                <h1>Delta</h1>
+                <h1>{{proyecto?.name}}</h1>
             </div>
             <div class="legend">
                 <p>
-                    Remodelación de una sala de un estudio juridico
-                                en la cual se restauro los muros de madera, y se agrego una nueva pintura especial
-                                a demas se construyo un mueble para recepción a medida, diseños y luces en el gypsum.
+                    {{proyecto?.description}}
                 </p>
             </div>
         </article>   

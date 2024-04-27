@@ -1,5 +1,4 @@
-.fondo-imagen{
-    background-image: url('/img/Atlas/delta/entrada.png');
+.fondo-imagen img{
     background-size: cover;
     background-position: center;
     width: 100vw;

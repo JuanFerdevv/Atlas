@@ -15,6 +15,8 @@ import {ProjectDescription} from '../../interfaces/info-proyecto-detalles.interf
 })
 export class ProyectoIdComponent implements OnInit {
 
+  proyecto: ProjectDescription|undefined;
+
   constructor(public route: ActivatedRoute, public  proyectosService: ProjectsService){}
   
   ngOnInit() {  
@@ -23,6 +25,7 @@ export class ProyectoIdComponent implements OnInit {
       this.proyectosService.getProyecto(parametros['id'])
       .subscribe((proyecto: any)=>{
         const project: ProjectDescription = proyecto;
+        this.proyecto=proyecto;
         console.log(project);
       });
 
