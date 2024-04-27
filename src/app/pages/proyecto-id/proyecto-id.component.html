@@ -1,6 +1,6 @@
-<div class="parallax-container">
-            <div class="fondo-imagen">
-                <img  [src]="proyecto?.url"  alt="">
+<div class="parallax-container" >
+            <div class="fondo-imagen" >
+                <img  [src]="proyecto?.url"  alt="" >
             </div>
                 <div  class="content">
                     <h1>{{proyecto?.name}}</h1>
@@ -32,17 +32,8 @@
             </div>
         </article>   
         <div class="legend-img">
-            <img src="/img/Atlas/delta/entrada.png" alt="">
-            <img src="/img/Atlas/delta/silla.png" alt="">
+            <img src="assets/img/Atlas/{{id}}/main.png" alt="">
+            <img src="assets/img/Atlas/{{id}}/pic1.png" alt="">
+            <img src="assets/img/Atlas/{{id}}/pic2.png" alt="">
         </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-    var parallax = document.querySelector(".fondo-imagen");
-    window.addEventListener("scroll", function() {
-        var offset = window.pageYOffset;
-        parallax.style.backgroundPositionY = offset * 0.5 + "px"; // Ajusta el valor 0.5 según la intensidad del efecto deseado
-    });
-});
-
-</script>
 
