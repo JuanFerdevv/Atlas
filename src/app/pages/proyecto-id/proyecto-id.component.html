@@ -1,28 +1,29 @@
 <div class="fondo-imagen" >
     <img  [src]="proyecto?.url"  alt="" >
 </div>
-<div class="name">
-    <h1>{{proyecto?.name}}</h1>
+<div class="info">
+    <div class="name">
+        <h1>{{proyecto?.name}}</h1>
+    </div>
+    <div  class="content">
+        <h4>Información del Proyecto</h4>
+        <section class="data">
+            <div class="info-column">
+                <h4>Tipologia</h4>
+                <p>{{proyecto?.tipologia}}</p>  
+            </div>
+            <div class="info-column">
+                <h4>Ubicación</h4>
+                <p>{{proyecto?.ubication}}</p>  
+            </div>
+            <div class="info-column">
+                <h4>Año</h4>
+                <p>{{proyecto?.anio}}</p>  
+            </div>
+        </section>
+    </div>
 </div>
-<div  class="content">
-
-    <h2>Información del Proyecto</h2>
-    <section class="data">
-        <div class="info-column">
-            <h4>Tipologia</h4>
-            <p>{{proyecto?.tipologia}}</p>  
-        </div>
-        <div class="info-column">
-            <h4>Ubicación</h4>
-            <p>{{proyecto?.ubication}}</p>  
-        </div>
-        <div class="info-column">
-            <h4>Año</h4>
-            <p>{{proyecto?.anio}}</p>  
-        </div>
-    </section>
-</div>
-<!-- <section>
+<section>
 <article class="description-project">
     <div class="legend">
         <h1>{{proyecto?.name}}</h1>
@@ -37,5 +38,7 @@
     <img src="assets/img/Atlas/{{id}}/main.png" alt="">
     <img src="assets/img/Atlas/{{id}}/pic1.png" alt="">
     <img src="assets/img/Atlas/{{id}}/pic2.png" alt="">
+    <img src="assets/img/Atlas/{{id}}/pic3.png" alt="">
+    <img src="assets/img/Atlas/{{id}}/pic4.png" alt="">
 </div>
-</section> -->
+</section>
