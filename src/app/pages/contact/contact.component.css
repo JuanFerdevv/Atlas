@@ -58,3 +58,10 @@
    display:list-item;
    list-style: none;
 }
+@media(max-width:768px){
+        .containerContact{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap:20px;
+        }
+}

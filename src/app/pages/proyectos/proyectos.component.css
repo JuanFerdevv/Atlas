@@ -3,7 +3,7 @@
     grid-template-columns: 1.5fr 2fr 2fr;
     grid-template-rows: 30rem 30rem 30rem;
     gap: 30px;
-    margin: 120px 30px 10px 30px ;
+    margin: 120px 30px 10px 30px;
 }
 .project {
     height: 100%;
@@ -26,26 +26,14 @@
 }
 
 @media (max-width: 768px){
-    .IntroText{
+    .projects{
         display: grid;
         grid-template-columns: 1fr;
-        height: auto;
-        padding: 30px;
-        margin: 30px;
+        padding: 10px;
     }
-    .PojectsParent{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        gap: 20px;  
-        align-content: center;
+    .project{
+        box-sizing: border-box;
+        width: 100%;
     }
-    .LastProjects{
-        display: grid;
-        font-size: 64px;    
-        font-weight: 800;
-    }
-    .contentChild{
-        margin: 40px;
-    }
+   
 }

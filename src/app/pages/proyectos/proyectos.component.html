@@ -1,6 +1,7 @@
 <div class="projects">        
     <div *ngFor="let item of  proyectosService.proyecto">
-        <a routerLink="/proyectos/{{item.cod}}"><img class="project"  [src]="item.url" alt=""> 
+        <a routerLink="/proyectos/{{item.cod}}">
+            <img class="project"  [src]="item.url" alt=""> 
         <h5>{{item.Nombre}}</h5></a>
     </div>
 </div>
