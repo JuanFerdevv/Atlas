@@ -1,1 +1,6 @@
-<p>shop works!</p>
+<div class="items">        
+    <div class="item" *ngFor="let item of  shopService.shop">
+        <img   [src]="item.url" alt=""> 
+        <h5>{{item.nombre}}</h5>
+    </div>
+</div>

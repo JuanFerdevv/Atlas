@@ -1,0 +1,18 @@
+*{
+    font-family: Questrial, Helvetica, sans-serif;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 50px;
+    margin: 100px 30px 0 30px;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h5{
+    font-weight: 100;
+    font-size: 20px;
+}
