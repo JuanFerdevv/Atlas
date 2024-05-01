@@ -127,4 +127,7 @@
         grid-template-columns: 1fr;
         justify-content: center;
     }
+    .dinamic{
+        font-size: 54px;
+    }
 }
