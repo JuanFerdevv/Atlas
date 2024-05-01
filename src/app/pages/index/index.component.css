@@ -2,12 +2,26 @@
     font-family: Questrial;
 }
 .headerImage{
-    margin-top: -80px;
     background-image: url('/assets/img/Atlas/viña/pic1.png');
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 110vh;
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.dinamic{
+    position: absolute;
+    font-size: 64px;
+    text-align: center;
+    align-items: center;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    bottom: 300px;
+    margin-left: 30px;
 }
 .IntroText{
     display: grid;
@@ -101,5 +115,16 @@
     }
     .IntroTextFirst p {
         margin-top: 10px;
+    }
+    .dinamic{
+        margin: auto;
+    }
+    .contentChild img { 
+        height: 100vh;
+        width: 100vw;
+    }
+    .PojectsParent{
+        grid-template-columns: 1fr;
+        justify-content: center;
     }
 }
