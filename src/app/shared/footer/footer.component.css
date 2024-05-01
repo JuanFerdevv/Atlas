@@ -23,11 +23,15 @@ footer .footerContain{
 .footerContain .logo img {
     max-width: 50%;
 }
-.footerContain .menu  li {   
+.footerContain .menu  li  {   
     text-decoration: none;
     list-style: none;
-    color: #fff;
-    
+    color: #fff;   
+}
+.footerContain .menu   a{   
+    text-decoration: none;
+    list-style: none;
+    color: #fff;   
 }
 .footerContain .info  li {  
     list-style: none;
