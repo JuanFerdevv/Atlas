@@ -21,11 +21,7 @@
 }
 .name h1{ 
  font-weight: 100;
-<<<<<<< HEAD
  font-size: 68px;
-=======
- font-size: 78px;
->>>>>>> nueva-rama
 }
 .content{
     position: absolute;
@@ -101,13 +97,8 @@
         display: grid;
         grid-template-columns: 1fr;
     }
-<<<<<<< HEAD
     .name h1{ 
         font-weight: 100;
         font-size: 58px;
-=======
-    .legend h1{
-        text-align: center;
->>>>>>> nueva-rama
     }
 }
