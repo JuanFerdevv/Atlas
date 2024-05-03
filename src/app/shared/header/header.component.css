@@ -78,13 +78,13 @@ header{
         left: 0;
         width: 100%;
         height: 0;
-        background-color: rgba(0, 0, 0, .1);
+        background-color: rgba(10, 6, 6, 0.644);
         backdrop-filter: blur(50px);
         transition: .3s ease;
         overflow:hidden;
     }
     #check:checked~.Navbar{
-        height: 250px;
+        height: 200px;
     }
     .Navbar a{
         display: flex;
